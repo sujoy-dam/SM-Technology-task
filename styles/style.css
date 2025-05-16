@@ -26,7 +26,12 @@ body {
 .mt-20{
     margin-top: 20px;
 }
-
+.mt-100{
+    margin-top: 100px;
+}
+.mt-40{
+    margin-top: 40px;
+}
 /* text-color  */
 .text-primary {
     color: #A554E6;
@@ -67,6 +72,9 @@ body {
 .justify-between {
     /* display: flex; */
     justify-content: space-between;
+}
+.gap-24{
+    gap: 24px;
 }
 .items-center{
     /* display: flex; */
