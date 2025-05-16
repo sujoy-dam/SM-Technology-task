@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
+/* common style start  */
 * {
     margin: 0;
     padding: 0;
@@ -16,9 +16,15 @@ body {
 .container {
     max-width: 1200px;
 }
-
+/* margin  */
 .mx-auto {
     margin: 0 auto;
+}
+.mt-12{
+    margin-top: 12px;
+}
+.mt-20{
+    margin-top: 20px;
 }
 
 /* text-color  */
@@ -47,6 +53,9 @@ body {
 /* font-part  */
 .text-bold {
     font-weight: 700;
+}
+.text-medium{
+    font-weight: 500;
 }
 
 /* flex part  */
@@ -88,6 +97,8 @@ body {
     color: #B262F3;
     border-color: #B262F3;
 }
+
+/* common style end  */
 /* navbar styles  */
 nav{
     padding: 16px 0;
@@ -106,17 +117,48 @@ nav > .btn-box{
     background-color: #F5F5F5;
     padding: 60px 0px;
 }
+.banner-tagline{
+    padding: 8px 12px;
+    background-color: white;
+    border-radius: 18px;
+}
+.banner-tagline > i{
+margin-right: 15px;
+font-size: 15px;
+}
 .banner-container{
     gap:28px
 }
 .banner-btn-box{
     gap: 24px;
+    margin-top: 28px;
 }
 /* banner img box  */
 .banner-img-box{
     gap:20px
 }
-.banner-social-platform{
+.banner-img-box img{
+    width: 295px;
+
+}
+.banner-social-platform-container{
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+}
+.banner-social-platform-container > div{
 padding: 20px 24px;
+border-radius: 18px;
 background-color: white;
+display: inline-block;
+}
+.social-platform-logo-box{
+    display: flex;
+    justify-content: end;
+    margin-top: 12px;
+}
+.social-platform-logo-box {
+    display: flex;
+    text-align: end;
+    gap: 32px;
 }
