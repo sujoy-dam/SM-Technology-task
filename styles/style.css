@@ -45,7 +45,7 @@ body {
 }
 
 /* font-part  */
-.font-bold {
+.text-bold {
     font-weight: 700;
 }
 
@@ -56,8 +56,12 @@ body {
 }
 
 .justify-between {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
+}
+.items-center{
+    /* display: flex; */
+    align-items: center;
 }
 
 /* grid part  */
@@ -69,6 +73,8 @@ body {
 .btn {
     padding: 8px 27px;
     border-radius: 24px;
+    font-size: 18px;
+    border: 1px solid gray;
 }
 
 /* button part  */
@@ -81,4 +87,36 @@ body {
 .btn-secondary {
     color: #B262F3;
     border-color: #B262F3;
+}
+/* navbar styles  */
+nav{
+    padding: 16px 0;
+}
+nav > ul{
+list-style: none;
+gap:32px
+}
+nav > .btn-box{
+    display: flex;
+    gap: 12px;
+}
+/* banner styles  */
+/* banner left content box  */
+.banner-section{
+    background-color: #F5F5F5;
+    padding: 60px 0px;
+}
+.banner-container{
+    gap:28px
+}
+.banner-btn-box{
+    gap: 24px;
+}
+/* banner img box  */
+.banner-img-box{
+    gap:20px
+}
+.banner-social-platform{
+padding: 20px 24px;
+background-color: white;
 }
