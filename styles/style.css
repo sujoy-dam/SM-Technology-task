@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.font-raleway {
+    font-family: "Raleway", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+/* text-color  */
+.text-primary {
+    color: #A554E6;
+}
+
+/* text part  */
+
+.text-center {
+    text-align: center;
+}
+
+.text-18 {
+    font-size: 18px;
+}
+
+.text-20 {
+    font-size: 20px;
+}
+
+.text-48 {
+    font-size: 48px;
+}
+
+/* font-part  */
+.font-bold {
+    font-weight: 700;
+}
+
+/* flex part  */
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* grid part  */
+
+.grid {
+    display: grid;
+}
+
+.btn {
+    padding: 8px 27px;
+    border-radius: 24px;
+}
+
+/* button part  */
+.btn-primary {
+    background-color: #B564F7;
+    color: white;
+    border: none
+}
+
+.btn-secondary {
+    color: #B262F3;
+    border-color: #B262F3;
+}
