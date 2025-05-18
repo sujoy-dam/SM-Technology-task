@@ -43,7 +43,9 @@
             <div class="banner-container container mx-auto flex">
                 <div class="banner-content">
                     <span class="banner-tagline"><i class="fa-solid fa-star"></i>All talents across the world</span>
-                    <p class="section-title font-bold mt-12">Create Short-From Video Content starting at $99/month.</p>
+                    <p class="section-title font-bold mt-12">Create <span class="gradient-text">Short-From</span> <span
+                            class="gradient-text">Video Content</span> starting at <span class="price">$99</span>/month.
+                    </p>
                     <p class="mt-12">Tailored social media content of the highest quality, crafted for your business.
                         Shared on your
                         channels only upon your approval.</p>
@@ -508,24 +510,26 @@
             </div>
         </section>
     </main>
-    <footer class="footer-section none">
-        <div class="footer-container container mx-auto">
-            <div class="footer-content">
-                <div class="footer-column">
-                    <p class="section-title font-bold">Logo</p>
-                    <p class="footer-title">Abou Us</p>
-                    <p class="footer-description">Raaya Social takes care of your social media posts
-                        for a flat monthly price. Quality content, posted to
-                        all your social media channels.
-                        Take your socials to the next level:</p>
+    <footer class="footer">
+        <div class="container mx-auto">
+            <div class="footer-container">
+                <!-- About -->
+                <div class="footer-section about">
+                    <h1 class="logo">Logo</h1>
+                    <h3>About Us</h3>
+                    <p>
+                        Raaya Social takes care of your social media posts for a flat monthly price.
+                        Quality content, posted to all your social media channels. Take your socials to the next level.
+                    </p>
                     <div class="footer-buttons">
                         <button class="btn">Log in</button>
-                        <button class="btn btn-secondary">Book a demo</button>
+                        <button class="btn btn-primary">Book a demo</button>
                     </div>
                 </div>
-                <div class="footer-column">
-                    <p class="footer-title">Quick Link</p>
-                    <ul class="footer-links">
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
                         <li>Home</li>
                         <li>About Us</li>
                         <li>Pricing</li>
@@ -533,24 +537,32 @@
                         <li>Portfolio</li>
                     </ul>
                 </div>
-                <div class="footer-column">
-                    <p class="footer-title">Services</p>
-                    <ul class="footer-links">
-                        <li>Social Media managment</li>
-                        <li>Sort Vedio Content</li>
-                        <li>Email Design</li>
-                        <li>Blog Post</li>
+
+                <!-- Services -->
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Social media management</li>
+                        <li>Short - form video content</li>
+                        <li>Email design</li>
+                        <li>Blog post</li>
                     </ul>
                 </div>
-                <div class="footer-column">
-                    <p class="footer-title">Contact Us</p>
-                    <div>
-                        <input type="text" placeholder="Email address">
-                        <input type="number" placeholder="Phone number">
-                        <textarea placeholder="Write Your say" name="" id=""></textarea>
-                    </div>
+
+                <!-- Contact Form -->
+                <div class="footer-section">
+                    <h4>Contact us</h4>
+                    <form class="contact-form">
+                        <input type="email" placeholder="Email address" required />
+                        <input type="tel" placeholder="Phone number" required />
+                        <textarea placeholder="Write your say" required></textarea>
+                        <button type="submit">Submit →</button>
+                    </form>
                 </div>
             </div>
+
+            <hr />
+            <p class="copyright">© 2024 TaxDax. All rights reserved.</p>
         </div>
     </footer>
 </body>

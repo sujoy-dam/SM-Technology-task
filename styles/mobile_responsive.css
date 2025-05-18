@@ -156,6 +156,11 @@
         width: 100%;
     }
 
+    .client-section-container hr {
+
+        height: 0;
+    }
+
     .review-card-one,
     .review-card-two {
         padding: 24px 37px;
@@ -171,6 +176,11 @@
         background-color: white;
         border-radius: 14px;
         padding: 24px 37px;
+    }
+
+    /* footer section  */
+    .footer-container {
+        flex-direction: column;
     }
 
 
