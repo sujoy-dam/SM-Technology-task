@@ -331,6 +331,23 @@ nav>.btn-box {
     margin: 32px 0;
 }
 
+/* FAQ section  */
+.faq-content-container{
+margin-top: 40px;
+}
+.faq-content-container > * + *{
+margin-top: 20px;
+}
+.faq-box{
+    padding: 24px;
+    background-color: white;
+    border-radius: 8px;
+}
+.faq-question{
+    font-size: 20px;
+    font-weight: 500;
+}
+
 /* footer section  */
 .footer-section {
     padding: 46px 0 56px 0;
