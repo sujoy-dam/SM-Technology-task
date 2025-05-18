@@ -1,0 +1,180 @@
+@media screen and (max-width:567px) {
+
+    /* share style  */
+    .section-title {
+        font-size: 30px;
+        /* text-align: center; */
+    }
+
+    .btn {
+        padding: 8px 20px;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .title-img {
+        display: none;
+        white-space: normal;
+    }
+
+    /* nav section  */
+    /* header {
+        padding: 0 10px;
+    } */
+
+    .nav-list {
+        display: none;
+    }
+
+    nav>img {
+        width: 50px;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+
+    nav>.btn-box {
+        display: none;
+    }
+
+    /* banner section  */
+    .banner-container {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .banner-img-box {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .banner-img-box img {
+        width: 100%;
+    }
+
+    .social-platform-logo-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* client sectin  */
+    .client-section-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .client-container-img {
+        flex-direction: column;
+        gap: 28px;
+        margin-top: 50px;
+    }
+
+    .client-container-img>*+* {
+        margin-top: 28px;
+    }
+
+    /* creative services */
+
+    .creative-services-container-content>div {
+        flex-direction: column;
+    }
+
+    .creative-services-container-content>div>hr {
+        margin: 48px 0;
+    }
+
+    .features-section {
+        width: 100%;
+    }
+
+    .pricing-section {
+        width: 100%;
+    }
+
+    /* Turn your raw video into engaging clip */
+
+    .engaging-clip-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .engaging-clip-content img {
+        width: 100%;
+    }
+
+    .social-media-clip-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+    /* bussiness and personal vedio section  */
+    .video-card-container {
+        flex-direction: column;
+    }
+
+    .nav-container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .banner-container,
+    .personal-vedios-section,
+    .personal-vedios-container,
+    .business-vedios-section,
+    .short-vedio-section,
+    .creative-services-container,
+    .engaging-clip-section,
+    .faq-section,
+    .client-section,
+    .client-stories-section {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    /* short vedio section  */
+    /* .short-vedio-section {
+        padding: 0 10px;
+    } */
+
+    .short-vedio-section-container {
+        flex-direction: column-reverse;
+        margin-top: 100px;
+        padding: 40px 0;
+    }
+
+    .short-vedio-section-container img {
+        width: 100%;
+    }
+
+    /* client stories section  */
+    .client-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .client-container img {
+        width: 100%;
+    }
+
+    .review-card-one,
+    .review-card-two {
+        padding: 24px 37px;
+        background-color: white;
+        grid-column: span 12 / span 12;
+        border-radius: 14px;
+    }
+
+    .review-card-three,
+    .review-card-four,
+    .review-card-five {
+        grid-column: span 12 / span 12;
+        background-color: white;
+        border-radius: 14px;
+        padding: 24px 37px;
+    }
+
+
+
+
+
+}
