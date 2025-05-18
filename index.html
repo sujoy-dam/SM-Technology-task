@@ -7,15 +7,17 @@
     <title>RAAYA SOCIAL</title>
     <!-- css link  -->
     <link rel="stylesheet" href="./styles/style.css">
+    <!-- responsive style  -->
+    <link rel="stylesheet" href="./styles/resposive.css">
     <!-- font awsome link  -->
     <script src="https://kit.fontawesome.com/8da0e75a17.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <header>
+<body class="">
+    <header class="">
         <nav class="nav-container container mx-auto flex justify-between items-center">
             <img src="./assets/nav/Logo.png" alt="">
-            <ul class="flex">
+            <ul class="flex nav-list">
                 <li>Home</li>
                 <li>Services</li>
                 <li>Portfolio</li>
@@ -27,13 +29,17 @@
                 <button class="btn">Log in</button>
                 <button class="btn btn-secondary">Book a demo</button>
             </div>
+            <div class="menu-icon" id="menu-icon">
+                <!-- <img class="logo" src="./image/Monotone add.png" alt=""> -->
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </nav>
         <!-- banner section  -->
-        <section class="banner-section">
+        <section class="banner-section bg-primary">
             <div class="banner-container container mx-auto flex">
                 <div>
                     <span class="banner-tagline"><i class="fa-solid fa-star"></i>All talents across the world</span>
-                    <p class="text-48 text-bold mt-12">Create Short-From Video Content starting at $99/month.</p>
+                    <p class="section-title font-bold mt-12">Create Short-From Video Content starting at $99/month.</p>
                     <p class="mt-12">Tailored social media content of the highest quality, crafted for your business.
                         Shared on your
                         channels only upon your approval.</p>
@@ -49,7 +55,7 @@
                     </div>
                     <div class="banner-social-platform-container">
                         <div class="">
-                            <p class="text-20 text-medium">Social channel we work with</p>
+                            <p class="text-20 font-medium">Social channel we work with</p>
                             <div class="social-platform-logo-box">
                                 <img src="./assets/banner/social/instagram.png" alt="">
                                 <img src="./assets/banner/social/facebook.png" alt="">
@@ -66,22 +72,291 @@
         </section>
     </header>
     <!-- main section  -->
-    <main>
+    <main class="bg-primary">
+        <section>
+            <div></div>
+        </section>
+        <!-- All-Inclusive Creative Services section  -->
+        <section class="creative-services-section">
+            <div class="creative-services-container container mx-auto">
+                <p class="section-title font-bold text-center">All-Inclusive <span class="text-primary">Creative
+                        Services</span></p>
+                <p class="creative-services-container-title text-center mx-auto">Our fixed monthly rate covers all your
+                    creative needs,
+                    with predictable
+                    pricing, no contracts, and
+                    unlimited revisions. Explore our services to find the perfect solution for your brand’s growth!</p>
+                <div class="creative-services-container-content">
+                    <div class="flex">
+                        <div class="w-half features-section">
+                            <p class="features-heading flex items-center font-medium"><img
+                                    src="./assets/creative services/Frame.png" class="" alt="">What We provide ?</p>
+                            <div class="features-content">
+                                <div class="flex">
+                                    <span class="green-checkmark-sign">
+                                        <img src="./assets/creative services/Group 1000006045.png" alt="">
+                                    </span>
+                                    <div>
+                                        <p class="font-medium feature-title">Low-cost, high quality</p>
+                                        <p class="">Most agencies charge way too much. We are a lean team with
+                                            streamlined workflows and a platform built from the ground up that allows us
+                                            to
+                                            charge much less.</p>
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <span class="green-checkmark-sign">
+                                        <img src="./assets/creative services/Group 1000006045.png" alt="">
+                                    </span>
+                                    <div>
+                                        <p class="font-medium feature-title">Full transparency</p>
+                                        <p class="">Most agencies charge way too much. We are a lean team with
+                                            streamlined workflows and a platform built from the ground up that allows us
+                                            to
+                                            charge much less.</p>
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <span class="green-checkmark-sign">
+                                        <img src="./assets/creative services/Group 1000006045.png" alt="">
+                                    </span>
+                                    <div>
+                                        <p class="font-medium feature-title">Cancel anytime</p>
+                                        <p class="">We don't believe in locking you into long contracts. You are free
+                                            to
+                                            leave us at any time, but you will just want to stay forever.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr class="flex">
+                        <!-- ----------------------------- -->
+                        <div class="w-half pricing-section">
+                            <div class="pricing-box flex justify-between items-center">
+                                <div class="">
+                                    <p class="font-medium pricing-title">5 Short form video - $99/ 1 week</p>
+                                    <p class="">Tailored graphic and video content packages.</p>
+                                </div>
+                                <div>
+                                    <input type="radio">
+                                </div>
+                            </div>
+                            <div class="pricing-box flex justify-between items-center">
+                                <div class="">
+                                    <span>Most Popular</span>
+                                    <p class="font-medium pricing-title">5 Short form video - $99/ 1 week</p>
+                                    <p class="">Tailored graphic and video content packages.</p>
+                                </div>
+                                <div>
+                                    <input type="radio" checked>
+                                </div>
+                            </div>
+                            <div class="pricing-box flex justify-between items-center">
+                                <div>
+                                    <p class="font-medium pricing-title">5 Short form video - $99/ 1 week</p>
+                                    <p class="">Tailored graphic and video content packages.</p>
+                                </div>
+                                <div>
+                                    <input type="radio">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="creative-btn-box mx-auto text-center">
+                        <button class="btn btn-primary">Get started</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Turn your raw video into engaging clip -->
+        <section class="pt-100 engaging-clip-section">
+            <div class="container mx-auto engaging-clip-container">
+                <p class="section-title font-bold text-center font-raleway">Turn your raw video into <span
+                        class="text-primary">engaging clip</span></p>
+                <div class="engaging-clip-content grid">
+                    <div class="engaging-clip-card">
+                        <p class="engaging-clip-card-title">We take raw video and/or premium
+                            stock footage</p>
+                        <figure>
+                            <img src="./assets/engaging clip/Image.png" alt="">
+                        </figure>
+                        <p class="engaging-clip-card-description">
+                            Share your long-form videos or raw clips with us. Our team will help you choose the best
+                            hooks & content from your video. Our team will help you choose the best hooks & content from
+                            your video.
+                        </p>
+                    </div>
+                    <div class="engaging-clip-card">
+                        <p class="engaging-clip-card-title">We structure it for views and watch-time</p>
+                        <figure>
+                            <img src="./assets/engaging clip/Image.png" alt="">
+                        </figure>
+                        <p class="engaging-clip-card-description">
+                            Share your long-form videos or raw clips with us. Our team will help you choose the best
+                            hooks & content from your video. Our team will help you choose the best hooks & content from
+                            your video.
+                        </p>
+                    </div>
+                    <div class="engaging-clip-card">
+                        <p class="engaging-clip-card-title">We create your unique style and theme</p>
+                        <figure>
+                            <img src="./assets/engaging clip/Image.png" alt="">
+                        </figure>
+                        <p class="engaging-clip-card-description">
+                            Share your long-form videos or raw clips with us. Our team will help you choose the best
+                            hooks & content from your video. Our team will help you choose the best hooks & content from
+                            your video.
+                        </p>
+                    </div>
+                </div>
+                <div class="social-media-clip-content grid">
+                    <div class="social-media-clip-content-card">
+                        <p class="social-media-clip-content-title">Instagram Reels</p>
+                        <p>Share your long-form videos or raw clips with us. Our team will help you choose the best hooks & content from your video. </p>
+                    </div>
+                    <div class="social-media-clip-content-card">
+                        <p class="social-media-clip-content-title">Tik Tok videos</p>
+                        <p>Share your long-form videos or raw clips with us. Our team will help you choose the best hooks & content from your video. </p>
+                    </div>
+                    <div class="social-media-clip-content-card">
+                        <p class="social-media-clip-content-title">YouTube shorts</p>
+                        <p>Share your long-form videos or raw clips with us. Our team will help you choose the best hooks & content from your video. </p>
+                    </div>
+                    <div class="social-media-clip-content-card">
+                        <p class="social-media-clip-content-title">Instagram Reels</p>
+                        <p>Share your long-form videos or raw clips with us. Our team will help you choose the best hooks & content from your video. </p>
+                    </div>
+                    <div class="social-media-clip-content-card">
+                        <p class="social-media-clip-content-title">Educational shorts</p>
+                        <p>Share your long-form videos or raw clips with us. Our team will help you choose the best hooks & content from your video. </p>
+                    </div>
+                    <div class="social-media-clip-content-card">
+                        <p class="social-media-clip-content-title">Instagram Reels</p>
+                        <p>Share your long-form videos or raw clips with us. Our team will help you choose the best hooks & content from your video. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- video for business section  -->
+        <section class="pt-100 business-vedios-section">
+            <div class="business-vedios-container container mx-auto">
+                <p class="flex items-center font-bold section-title">Videos&nbsp;<img class="title-img"
+                        src="./assets/personal brand/Rectangle 6500.png" alt="">&nbsp;For&nbsp;<span
+                        class="text-primary">business</span></p>
+                <div class="video-card-container flex">
+                    <div class="flex flex-col items-center vedio-card">
+                        <img src="./assets/business/image1.png" alt="">
+                        <p class="mt-20 font-medium vedio-category">Health & Wealth</p>
+                    </div>
+                    <div class="flex flex-col items-center vedio-card">
+                        <img src="./assets/business/image2.png" alt="">
+                        <p class="mt-20 font-medium vedio-category">Financial services</p>
+                    </div>
+                    <div class="flex flex-col items-center vedio-card">
+                        <img src="./assets/business/image3.png" alt="">
+                        <p class="mt-20 font-medium vedio-category">Real estate</p>
+                    </div>
+                    <div class="flex flex-col items-center vedio-card">
+                        <img src="./assets/business/image4.png" alt="">
+                        <p class="mt-20 font-medium vedio-category">Home services</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- video for personal brand section  -->
-        <section class="mt-100">
-            <div class="container mx-auto">
-                <p class="flex items-center text-bold text-48">Videos &nbsp;<img src="./assets/personal brand/Rectangle 6500.png" alt="">&nbsp; For &nbsp;<span class="text-primary"> personal brands</span></p>
-                <div class="flex gap-24 mt-40">
-                    <img src="./assets/personal brand/image1.png" alt="">
-                    <img src="./assets/personal brand/image2.png" alt="">
-                    <img src="./assets/personal brand/image3.png" alt="">
-                    <img src="./assets/personal brand/image4.png" alt="">
+        <section class="personal-vedios-section pt-100 pb-100">
+            <div class="container mx-auto personal-vedios-container">
+                <p class=" font-bold section-title section-title">Videos&nbsp;<img class="title-img"
+                        src="./assets/personal brand/Rectangle 6500.png" alt="">&nbsp;For&nbsp;<span
+                        class="text-primary">personal brands</span></p>
+                <div class="flex gap-24 mt-40 video-card-container">
+                    <div class="flex flex-col items-center vedio-card">
+                        <img src="./assets/personal brand/image1.png" alt="">
+                        <p class="mt-20 font-medium vedio-category">Health & Wealth</p>
+                    </div>
+                    <div class="flex flex-col items-center vedio-card">
+                        <img src="./assets/personal brand/image2.png" alt="">
+                        <p class="mt-20 font-medium  vedio-category">Financial services</p>
+                    </div>
+                    <div class="flex flex-col items-center vedio-card">
+                        <img src="./assets/personal brand/image3.png" alt="">
+                        <p class="mt-20 font-medium  vedio-category">Real estate</p>
+                    </div>
+                    <div class="flex flex-col items-center vedio-card">
+                        <img src="./assets/personal brand/image4.png" alt="">
+                        <p class="mt-20 font-medium  vedio-category">Home services</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Why is short-form video so popular? -->
+        <section class="short-vedio-section bg-white py-40">
+            <div class="short-vedio-section-container container mx-auto flex justify-between items-center">
+                <img src="./assets/why popular/Rectangle 10323.png" alt="Influencer making video">
+                <div class="short-vedio-section-content">
+                    <p class="section-title font-bold font-raleway">Why is short-form video so popular?</p>
+                    <p class="short-video-section-text1">Video content in the short form is not new. In actuality, the
+                        2012-released
+                        short-form video app
+                        Vine was a pioneer of the genre.But as tech giants like Instagram, TikTok, and YouTube
+                        launched short-form video features of their own, what had initially been a niche platform grew
+                        into something much larger.</p>
+                    <p class="short-video-section-text2">Video content in the short form is not new. In actuality, the
+                        2012-released
+                        short-form video app
+                        Vine was a pioneer of the genre.But as tech giants like Instagram, TikTok, and YouTube
+                        launched short-form video features of their own, what had initially been a niche platform grew
+                        into something much larger.</p>
+                    <button class="btn btn-primary">Book a demo</button>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="footer-section none">
+        <div class="footer-container container mx-auto">
+            <div class="flex footer-content justify-between">
+                <div class="footer-column">
+                    <p class="section-title font-bold">Logo</p>
+                    <p class="footer-title">Abou Us</p>
+                    <p class="footer-description">Raaya Social takes care of your social media posts
+                        for a flat monthly price. Quality content, posted to
+                        all your social media channels.
+                        Take your socials to the next level:</p>
+                    <div class="footer-buttons">
+                        <button class="btn">Log in</button>
+                        <button class="btn btn-secondary">Book a demo</button>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <p class="footer-title">Quick Links</p>
+                    <ul class="footer-links">
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Pricing</li>
+                        <li>Reviews</li>
+                        <li>Portfolio</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <p class="footer-title">Services</p>
+                    <ul class="footer-links">
+                        <li>Social Media managment</li>
+                        <li>Sort Vedio Content</li>
+                        <li>Email Design</li>
+                        <li>Blog Post</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <p class="footer-title">Contact Us</p>
+                    <div>
+                        <input type="text" placeholder="Email address">
+                        <input type="number" placeholder="Phone number">
+                        <textarea placeholder="Write Your say" name="" id=""></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 

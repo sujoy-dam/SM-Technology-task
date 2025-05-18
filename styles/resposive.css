@@ -1,0 +1,129 @@
+@media screen and (max-width:567px) {
+    .section-title {
+        font-size: 30px;
+        /* text-align: center; */
+    }
+
+    .btn {
+        padding: 8px 20px;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .title-img {
+        display: none;
+        white-space: normal;
+    }
+
+    /* nav section  */
+    /* header {
+        padding: 0 10px;
+    } */
+
+    .nav-list {
+        display: none;
+    }
+
+    nav>img {
+        width: 50px;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+
+    nav>.btn-box {
+        display: none;
+    }
+
+    /* banner section  */
+    .banner-container {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .banner-img-box {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .banner-img-box img {
+        width: 100%;
+    }
+
+    .social-platform-logo-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* creative services */
+
+    .creative-services-container-content>div {
+        flex-direction: column;
+    }
+
+    .creative-services-container-content>div>hr {
+        margin: 48px 0;
+    }
+
+    .features-section {
+        width: 100%;
+    }
+
+    .pricing-section {
+        width: 100%;
+    }
+
+    /* Turn your raw video into engaging clip */
+    
+    .engaging-clip-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .engaging-clip-content img {
+        width: 100%;
+    }
+
+    .social-media-clip-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+    /* bussiness and personal vedio section  */
+    .video-card-container {
+        flex-direction: column;
+    }
+
+    .nav-container,
+    .banner-container,
+    .personal-vedios-section,
+    .personal-vedios-container,
+    .business-vedios-section,
+    .short-vedio-section,
+    .creative-services-container,
+    .engaging-clip-section {
+        padding: 0 10px;
+    }
+
+    /* short vedio section  */
+    /* .short-vedio-section {
+        padding: 0 10px;
+    } */
+
+    .short-vedio-section-container {
+        /* flex-direction: column; */
+        flex-direction: column-reverse;
+        margin-top: 100px;
+        padding: 40px 0;
+    }
+
+    .short-vedio-section-container img {
+        /* flex-direction: column; */
+        width: 100%;
+    }
+
+
+
+
+}
