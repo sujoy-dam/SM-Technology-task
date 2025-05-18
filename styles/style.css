@@ -206,6 +206,25 @@ nav>.btn-box {
     gap: 32px;
 }
 
+/* our client section  */
+.client-section {
+    padding: 48px 0;
+    background-color: white;
+}
+
+.client-section-container hr {
+    gap: 72px;
+}
+
+.client-container-img {
+    gap: 28px;
+}
+
+.client-count {
+    font-size: 32px;
+    font-weight: 800;
+}
+
 /* creative services section  */
 .green-checkmark-sign {
     margin-right: 12px;
@@ -214,18 +233,21 @@ nav>.btn-box {
 .creative-services-container-title {
     max-width: 770px;
 }
+
 .creative-services-container-content {
     margin-top: 48px;
     background-color: white;
     padding: 28px;
     border-radius: 18px;
 }
-.creative-services-container-content > div > hr{
+
+.creative-services-container-content>div>hr {
     margin: 0 48px;
 }
-.creative-btn-box{
+
+.creative-btn-box {
     margin-top: 48px;
-    
+
 }
 
 /* feature part  */
@@ -254,47 +276,55 @@ nav>.btn-box {
     padding: 24px;
     border-radius: 18px;
 }
-.pricing-box span{
+
+.pricing-box span {
     font-size: 12px;
     background-color: #475467;
     padding: 4px 12px;
     border-radius: 8px;
     color: white;
 }
-.pricing-title{
+
+.pricing-title {
     margin-bottom: 12px;
 }
 
 /* Turn your raw video into engaging clip */
-.engaging-clip-content{
+.engaging-clip-content {
     margin-top: 48px;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
-.engaging-clip-content img{
+
+.engaging-clip-content img {
     margin: 24px 0px 20px 0;
 }
-.engaging-clip-card-title{
+
+.engaging-clip-card-title {
     font-size: 20px;
     font-weight: 500;
 }
-.engaging-clip-card{
+
+.engaging-clip-card {
     padding: 20px 24px;
     background-color: #fff;
     border-radius: 12px;
 }
-.social-media-clip-content{
+
+.social-media-clip-content {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 31px;
     row-gap: 28px;
     margin-top: 48px;
 }
-.social-media-clip-content-card{
+
+.social-media-clip-content-card {
     padding: 12px 24px 24px 15px;
-    border:1px solid gray;
+    border: 1px solid gray;
     border-radius: 18px;
 }
-.social-media-clip-content-title{
+
+.social-media-clip-content-title {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 12px;
@@ -331,19 +361,61 @@ nav>.btn-box {
     margin: 32px 0;
 }
 
+/* client stories section  */
+.client-stories-section{
+    padding: 190px 0;
+}
+.client-container {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+}
+
+.review-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-top: 32px;
+    gap: 24px;
+}
+
+.review-card-one,
+.review-card-two {
+    padding: 24px 37px;
+    background-color: white;
+    grid-column: span 6 / span 6;
+    border-radius: 14px;
+}
+
+.review-card-three,
+.review-card-four,
+.review-card-five {
+    grid-column: span 4 / span 4;
+    background-color: white;
+    border-radius: 14px;
+    padding: 24px 37px;
+}
+
+.client-details {
+    margin-bottom: 24px;
+}
+
 /* FAQ section  */
-.faq-content-container{
-margin-top: 40px;
+.faq-content-container {
+    margin-top: 40px;
 }
-.faq-content-container > * + *{
-margin-top: 20px;
+
+.faq-content-container>*+* {
+    margin-top: 20px;
 }
-.faq-box{
+
+.faq-box {
     padding: 24px;
     background-color: white;
     border-radius: 8px;
 }
-.faq-question{
+
+.faq-question {
     font-size: 20px;
     font-weight: 500;
 }
@@ -355,7 +427,9 @@ margin-top: 20px;
 
 .footer-content {
     border: 2px solid red;
-    flex: auto;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 80px; */
 }
 
 .footer-title {

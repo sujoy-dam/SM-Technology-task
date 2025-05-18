@@ -56,6 +56,22 @@
         justify-content: center;
     }
 
+    /* client sectin  */
+    .client-section-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .client-container-img {
+        flex-direction: column;
+        gap: 28px;
+        margin-top: 50px;
+    }
+
+    .client-container-img>*+* {
+        margin-top: 28px;
+    }
+
     /* creative services */
 
     .creative-services-container-content>div {
@@ -75,7 +91,7 @@
     }
 
     /* Turn your raw video into engaging clip */
-    
+
     .engaging-clip-content {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -103,7 +119,9 @@
     .short-vedio-section,
     .creative-services-container,
     .engaging-clip-section,
-    .faq-section {
+    .faq-section,
+    .client-section,
+    .client-stories-section {
         padding: 0 10px;
     }
 
@@ -123,6 +141,31 @@
         /* flex-direction: column; */
         width: 100%;
     }
+
+    /* client stories section  */
+    .client-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .client-container img{
+        width: 100%;
+    }
+    .review-card-one,
+.review-card-two {
+    padding: 24px 37px;
+    background-color: white;
+    grid-column: span 12 / span 12;
+    border-radius: 14px;
+}
+
+.review-card-three,
+.review-card-four,
+.review-card-five {
+    grid-column: span 12 / span 12;
+    background-color: white;
+    border-radius: 14px;
+    padding: 24px 37px;
+}
+
 
 
 
