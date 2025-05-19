@@ -4,7 +4,7 @@
 
 ## 🌐 Live Website
 
-[RAAYA SOCIAL - Live Site](https://682ac8b2833227d909a478f1--dancing-eclair-e40bd9.netlify.app/)
+[RAAYA SOCIAL - Live Site](https://682aeefb3ccbcb38af54f2c6--dancing-eclair-e40bd9.netlify.app)
 
 ## 🚀 Features
 
@@ -23,8 +23,4 @@
 - Home Service Businesses  
 - Personal Brands and Creators
 
-## 💬 Testimonial
-
-> "Our smart developers build innovative, efficient, and high-performance solutions."  
-> — **Andrei Kasyanau**, CEO at Glorium Technologies
 
