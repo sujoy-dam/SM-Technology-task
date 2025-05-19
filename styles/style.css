@@ -386,6 +386,19 @@ nav>.btn-box {
     grid-template-columns: repeat(5, 1fr);
     gap: 16px;
 }
+.client-card{
+    position: relative;
+}
+.client-card-top{
+    position: absolute;
+    transform: translate(76px, -76px);
+    /* transform: translateX(76px); */
+    color: white;
+}
+.client-card-top .title{
+font-size: 20px;
+font-weight: 500;
+}
 
 .review-container {
     display: grid;
