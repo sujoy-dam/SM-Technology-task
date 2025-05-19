@@ -391,8 +391,7 @@ nav>.btn-box {
 }
 .client-card-top{
     position: absolute;
-    transform: translate(76px, -76px);
-    /* transform: translateX(76px); */
+    transform: translate(66px, -76px);
     color: white;
 }
 .client-card-top .title{

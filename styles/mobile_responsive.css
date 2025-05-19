@@ -155,6 +155,15 @@
     .client-container img {
         width: 100%;
     }
+    .client-card{
+    position: relative;
+}
+.client-card-top{
+    position: absolute;
+    transform: translate(96px, -106px);
+    /* transform: translateX(76px); */
+    color: white;
+}
 
     .client-section-container hr {
 

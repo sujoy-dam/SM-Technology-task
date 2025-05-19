@@ -147,6 +147,12 @@
     .client-container img {
         width: 100%;
     }
+    .client-card-top{
+    position: absolute;
+    transform: translate(96px, -106px);
+    
+    color: white;
+}
 
     .review-card-one,
     .review-card-two {
